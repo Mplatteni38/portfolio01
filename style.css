@@ -415,7 +415,7 @@ footer a:hover{
   }
   .form-contato{
     max-width: 600px;
-width: 100%;
+    width: 100%;
 
 
   }
@@ -451,15 +451,18 @@ width: 100%;
   .conteiner-com-img {
     flex-direction: column; 
     text-align: center;
-    text-align: center;
+   
   }
-
+main section h1 {
+padding-right: 100px;
+}
 
     .conteiner-com-img img {
     width: 100%;       /* Ocupa 80% da largura da tela */
-   order: 2;
+    order: 2;
     max-width: 700px; /* Tamanho máximo para não ficar gigante */
     margin-top: 20px;
+    font-size: 4px;
 
     }
 .nav-links {
@@ -473,6 +476,28 @@ width: 100%;
     border-radius: 8px;
     z-index: 999;
 }
+
+  .hamburgue {
+      
+  position: absolute;
+  top: 20px;
+  right: 110px;
+ background-color: #e269e421;
+ width: 65px;
+ outline: none;
+ cursor: pointer;
+ color: #fff;
+ font-weight: 600;
+  
+  }
+.texto-cabeca {
+    font-size: 0.9em;
+    padding: 12vw;
+    padding-left: 6vw;
+   font-size: 10px;
+ color: white;
+}
+
 
 @media (min-width:430px) {
   nav {
@@ -525,7 +550,7 @@ margin: 0 auto; /* 👉 Centraliza o botão */
  cursor: pointer;
  color: #fff;
  font-weight: 600;
-  
+   z-index: 999;
   }
 
     .conteiner-com-img img {
