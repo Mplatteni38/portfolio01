@@ -17,6 +17,8 @@
 body{
     background-color: var(--fundo1);
     color: white;
+  margin: 0;
+   overflow-x: hidden;
 
 }
 .container-top{
@@ -499,15 +501,17 @@ padding-right: 100px;
 }
 
 
-@media (min-width:430px) {
+@media (min-width:360px) {
   nav {
      scroll-behavior: smooth;
     position: fixed;
   }
   .form-contato{
-    max-width: 400px;
-width: 50%;
-margin: 0 auto; /* 👉 Centraliza o botão */
+    max-width: 500px;
+width: 100%;
+margin: 20px auto; /* 👉 Centraliza o 
+botão */
+display: block;
 }
  button{
   border-radius: 15px;
@@ -543,7 +547,7 @@ margin: 0 auto; /* 👉 Centraliza o botão */
       
   position: absolute;
   top: 20px;
-  right: 110px;
+ border: auto;
  background-color: #e269e421;
  width: 65px;
  outline: none;
@@ -554,16 +558,17 @@ margin: 0 auto; /* 👉 Centraliza o botão */
   }
 
     .conteiner-com-img img {
-    width: 300%;       /* Ocupa 80% da largura da tela */
-   order: 2;
-    max-width: 500px; /* Tamanho máximo para não ficar gigante */
+    width: 100%;       
+    order: 2;
+    max-width: 500px; 
     margin-top: 20px;
     margin: auto;
-    margin-left: 50px;
+    display: block;
     }
  
   .carrossel {
-  width: 125%;
+  width: 100%;
+  box-sizing: border-box;
   overflow: hidden;
   padding: 1rem 0;
   box-sizing: border-box;
