@@ -448,12 +448,15 @@ footer a:hover{
   cursor: pointer;
 }
 
+
 }
 
-@media (max-width:900px) {
+@media (max-width:500px) {
   .conteiner-com-img {
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
+    display: flex;
+    width: auto;
    
   }
 main section h1 {
@@ -461,13 +464,17 @@ padding-right: 100px;
 }
 
     .conteiner-com-img img {
-    width: 100%;       /* Ocupa 80% da largura da tela */
-    order: 2;
-    max-width: 700px; /* Tamanho máximo para não ficar gigante */
+  width: 100%;
+    max-width: 700px;
     margin-top: 20px;
     font-size: 4px;
+    order: 2;
 
     }
+
+      .texto-cabeca {
+    order: 1;
+  }
 .nav-links {
     display: none;
     flex-direction: column;
@@ -493,6 +500,20 @@ padding-right: 100px;
  font-weight: 600;
   
   }
+  main section h1 {
+     display: inline-block;
+    background: linear-gradient(to right, rgb(9, 140, 180) 35%, rgb(159, 14, 255) 65%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  max-width: 90%;
+  font-size: 3em;
+}
+.titulo-2{
+     background: linear-gradient(to right, rgb(9, 140, 180) 35%, rgb(159, 14, 255) 65%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .texto-cabeca {
     font-size: 0.9em;
     padding: 12vw;
@@ -509,7 +530,7 @@ padding-right: 100px;
   }
 
 
-@media (min-width:420px) {
+@media(min-width:420px) 
 
 main section h1 {
      display: inline-block;
@@ -589,11 +610,12 @@ display: block;
   }
 
     .conteiner-com-img img {
+      height: auto;
     width: 100%;       
     order: 2;
     max-width: 500px; 
     margin-top: 20px;
-    margin: auto;
+    margin: 20px auto 0 auto;
     display: block;
     }
  
@@ -613,3 +635,5 @@ display: block;
 footer{
   font-size: 10px;
 }
+
+
