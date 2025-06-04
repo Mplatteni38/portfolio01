@@ -418,6 +418,7 @@ footer a:hover{
   .form-contato{
     max-width: 600px;
     width: 100%;
+   margin: auto;
 
 
   }
@@ -449,7 +450,7 @@ footer a:hover{
 
 }
 
-@media (max-width: 900px) {
+@media (max-width:900px) {
   .conteiner-com-img {
     flex-direction: column; 
     text-align: center;
@@ -488,7 +489,7 @@ padding-right: 100px;
  width: 65px;
  outline: none;
  cursor: pointer;
- color: #fff;
+ color: #e00f0f;
  font-weight: 600;
   
   }
@@ -499,16 +500,41 @@ padding-right: 100px;
    font-size: 10px;
  color: white;
 }
+  .form-contato{
+    max-width: 600px;
+    width: 100%;
+   margin: auto;
 
 
-@media (min-width:360px) {
+  }
+
+
+@media (min-width:420px) {
+
+main section h1 {
+     display: inline-block;
+    background: linear-gradient(to right, rgb(9, 140, 180) 35%, rgb(159, 14, 255) 65%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  max-width: 90%;
+  font-size: 3em;
+}
+.titulo-2{
+     background: linear-gradient(to right, rgb(9, 140, 180) 35%, rgb(159, 14, 255) 65%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.campo-form label{
+ color: #7620d8;
+}
   nav {
      scroll-behavior: smooth;
     position: fixed;
   }
   .form-contato{
     max-width: 500px;
-width: 100%;
+width: 80%;
 margin: 20px auto; /* 👉 Centraliza o 
 botão */
 display: block;
@@ -520,13 +546,18 @@ display: block;
    margin: 0 auto;
    background-color: #ffffff65;
   margin: auto;
+  
   }
   .enviar{
     border-radius: 15px;
   font-size: 15px;
     width: 100px;
-   margin: 0 auto;
+   margin-left: 100px;
+   margin-top: 25px;
+ 
+   
   }
+  
   .nav-links {
     display: none;
     flex-direction: column;
@@ -578,4 +609,7 @@ display: block;
 }
 .container-top {
   margin-left: 25px;
+}
+footer{
+  font-size: 10px;
 }
